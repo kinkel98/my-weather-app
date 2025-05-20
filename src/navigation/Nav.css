@@ -1,0 +1,47 @@
+.sidebar{
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 20px;
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+}
+.sidebar ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+}
+
+.sidebar ul li >:nth-child(1){
+    text-decoration: none;
+    color:#ffff;
+}
+
+.logo >:nth-child(1){
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ecf0f1;
+    margin-bottom: 20px;
+}
+    
+.page-Content{
+    margin-left: 200px;
+    padding: 20px;
+    min-height: 100vh;
+    color: #ecf0f1;
+    background-color: #121212;
+}
+
+.active {
+    color: #ecf0f1 !important; /* Example: Change text color to blue */
+    font-weight: bold; /* Example: Make the text bold */
+  }
+  
+  .not-active {
+    color: rgba(236, 240, 241,0.5) !important; /* Example: Change text color to gray */
+ font-weight:400;
+}
